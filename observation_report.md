@@ -169,5 +169,5 @@ WNAC1_WdDir and WNAC1_Dir cannot be averaged using standard mean because compass
 Max outage up to 79 seconds (Device6) — Impact: Medium. Every device went offline briefly at some point, with Device6 having the longest single gap at 79 seconds. Recommendation: monitor Device6 connectivity and check if it is more prone to comms dropout than the other devices.
 
 3 signals not safe to average — Impact: Medium. WNAC1_Dir, WNAC1_WdDir (compass directions) and WTUR1_TurSt_actSt (status code) cannot be averaged using standard mean. Doing so would produce wrong or meaningless numbers. Recommendation: use Last value only for these signals in all aggregations.
----
+
 
